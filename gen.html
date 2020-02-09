@@ -16,7 +16,7 @@
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text">
-                            <input id="keyGen" class="form-control" type="text" placeholder="Your password..." readonly>
+                            <input id="keyGen" class="form-control" type="text" placeholder="Try it!" readonly>
                         </p>
                         <div class="container">
                             <div class="row">
@@ -24,7 +24,7 @@
                                     <a id="createButton" onclick="create()" href="#" class="btn btn-primary btn-lg btn-block">Create</a>
                                 </div>
                                 <div class="col">
-                                    <a id="copyButton" href="#" class="btn btn-secondary btn-lg btn-block">Copy</a>
+                                    <a id="copyButton" onclick="copy()" href="#" class="btn btn-secondary btn-lg btn-block">Copy</a>
                                 </div>
                                 <div class="col">
                                     <a id="viewButton" href="#" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#allPrevious">All</a>
@@ -45,6 +45,13 @@
                                             <ul id="list">
                                                 <!-- Create list here -->
                                             </ul>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <p>  
+                                                <!-- <small id="plus300">* Scroll to see the full list of generated passwords</small> -->
+                                                <small id="minus300">* See all your generated passwords here</small>                                             
+                                            </p>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
