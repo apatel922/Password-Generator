@@ -6,21 +6,21 @@ var passString = document.querySelector("#keyGen");
 //window.onload = function () {
     // generate random pass
     function create () {
-
+    
+    // Variables
+        // blank string for generated password & blank array
+        var password = "";
+        var history = [];
         // randomize password length (8-16 char)
         var passLength = Math.floor((Math.random() * 9) + 8);
         console.log(passLength);
-
         // all possible characters as a string
-        var charLibrary = "abcdefghijklmnopqrstuvwxyz!@#$%^&*?()<>[]{}ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        var charLibrary = "abcdefghijklmnopqrstuvwxyz!@#$%^&*?ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
-        // blank string for generated password & blank array
-        var password = "";
-        // var history = [];
 
         // for loop to create password
         for (var i = 0; i < passLength; i++) {
-            password = password + charLibrary.charAt(Math.floor(Math.random() * Math.floor(charLibrary.length - 1)));
+            password = password + charLibrary.charAt(Math.floor(Math.random() * charLibrary.length));
         }
 
         // add password to text field
