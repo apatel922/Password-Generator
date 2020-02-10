@@ -4,7 +4,7 @@
 }
 
 .modal-dialog {
-    margin-top: 12.5%;
+    margin-top: 7%;
 }
 
 #modalMessage {
@@ -64,7 +64,7 @@ input::-webkit-input-placeholder {
 }
 
 .jumbotron {
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: white;
     vertical-align: middle;
 }
