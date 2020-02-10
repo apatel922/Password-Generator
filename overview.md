@@ -79,8 +79,7 @@ var copyValue = document.getElementById("keyGen");
 
 ## All ( )
 
-Finish this entry bang
-Talk about choice to use fxn calls in html file
+I added an extra feature in my Password Creator to log all of the previously generated passwords in that instance.  
 
 <br>
 
