@@ -37,6 +37,7 @@ var passString = document.querySelector("#keyGen");
 //};
 
 
+
 // copy to clipboard
 function copy () {
 //  var copyValue = document.passString;
