@@ -80,6 +80,7 @@ var copyValue = document.getElementById("keyGen");
 ## All ( )
 
 Finish this entry bang
+Talk about choice to use fxn calls in html file
 
 <br>
 
