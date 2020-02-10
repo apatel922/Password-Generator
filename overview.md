@@ -79,7 +79,7 @@ var copyValue = document.getElementById("keyGen");
 
 ## All ( )
 
-The main function took a long time to troubleshoot.  
+Finish this entry bang
 
 <br>
 
