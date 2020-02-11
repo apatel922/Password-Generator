@@ -79,7 +79,7 @@ var copyValue = document.getElementById("keyGen");
 
 ## All ( )
 
-I added an extra feature in my Password Creator to log all of the previously generated passwords in that instance.  
+I added an extra feature in my Password Creator to log all of the previously generated passwords in the current instance.  The list with overflow scroll and the fields highlight on hover.
 
 <br>
 
