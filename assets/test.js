@@ -24,6 +24,10 @@ function create () {
         password = password + charLibrary.charAt(Math.floor(Math.random() * charLibrary.length));
     }
 
+    console.log("Loop complete:   " + password);
+
+
+
     // Add Password to Text Field
     document.getElementById("keyGen").value = password;
 
@@ -40,8 +44,8 @@ function create () {
 
 // Copy to Clip
 function copy () {
-//  var copyValue = document.passString;
-    var copyValue = document.getElementById("keyGen");
+    var copyValue = passString;
+//  var copyValue = document.getElementById("keyGen");
     console.log(copyValue);
     copyValue.select();
     document.execCommand("copy");
